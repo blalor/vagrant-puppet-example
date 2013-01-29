@@ -48,5 +48,13 @@ relative path to the `hieradata` directory that is compatible with the Vagrant
 invocation of Puppet, and the example `puppet_apply.sh` similarly takes care of
 the path munging, but it doesn't feel all that clean to me.
 
+# References
+
+* [Puppet][puppet]
+* [Vagrant][vagrant]
+* [Puppet "pure fact-driven" nodeless configuration](http://www.semicomplete.com/blog/geekery/puppet-nodeless-configuration)
+* Jordan Sissel's [nodeless](https://github.com/jordansissel/puppet-examples/tree/master/nodeless-puppet/) and [masterless](https://github.com/jordansissel/puppet-examples/tree/master/masterless) puppet examples
+
 [puppet]: http://puppetlabs.com
 [vagrant]: http://vagrantup.com
+
